@@ -1,0 +1,94 @@
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git log
+commit 9e05ff3ff86d619868fa241a135b8a3cc41f6226 (HEAD -> master)
+Merge: c8a6a2b 8254c55
+Author: oliviarindaanggraeini <oliviarindaanggraeini@gmail.com>
+Date:   Fri Jul 1 14:54:05 2022 +0800
+
+    Merge branch 'cv'
+
+commit c8a6a2b9421e1c58826aa3f0ae6767a5e319b485
+Author: oliviarindaanggraeini <oliviarindaanggraeini@gmail.com>
+Date:   Fri Jul 1 14:53:16 2022 +0800
+
+    update master pertama
+
+commit 8254c55621210f3cec78802ec2d5616039fcaa38 (cv)
+Author: oliviarindaanggraeini <oliviarindaanggraeini@gmail.com>
+Date:   Fri Jul 1 14:47:16 2022 +0800
+
+    Perpajakan
+
+commit e1b838f3b48e5f4e79745096f146646a93c92004
+Author: oliviarindaanggraeini <oliviarindaanggraeini@gmail.com>
+Date:   Fri Jul 1 14:46:52 2022 +0800
+
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/oliviarindaanggraeini/tugas-sic-olivia-2.git/'
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com'
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master^C
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/oliviarindaanggraeini/tugas-sic-olivia-2.git/'
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push --set-upstream orogin master
+fatal: 'orogin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/oliviarindaanggraeini/tugas-sic-olivia-2.git/'
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ ^C
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git remote set-url origin ^C
+
+JOHN@JOHN-PC MINGW64 ~/Documents/Olivia rinda anggraeini 2 (master)
+$ git push origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (20/20), 1.82 KiB | 124.00 KiB/s, done.
+Total 20 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/oliviarindaanggraeini/tugas-sic-olivia-2.git
+ * [new branch]      master -> master
